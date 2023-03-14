@@ -2,6 +2,7 @@ const Thing = require('../models/thing');
 const fs = require('fs');
 
 exports.createThing = (req, res, next) => {
+    console.log(req.body)
     const thingObject = JSON.parse(req.body.thing);
     delete thingObject._id;
     delete thingObject._userId;
