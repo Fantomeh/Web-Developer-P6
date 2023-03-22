@@ -1,0 +1,13 @@
+
+    // 'bcrypt' est utilisé pour crypter et comparer les mots de passe
+    "bcrypt": "^5.1.0",
+    // 'express' est un framework web pour Node.js, simplifie la création et la gestion des serveurs HTTP
+    "express": "^4.18.2",
+    // 'jsonwebtoken' est utilisé pour créer et vérifier les JSON Web Tokens (JWT) pour l'authentification
+    "jsonwebtoken": "^9.0.0",
+    // 'mongoose' facilite la connexion et les interactions avec MongoDB en utilisant des schémas et des modèles
+    "mongoose": "^7.0.2",
+    // 'mongoose-unique-validator' est un plugin pour Mongoose qui ajoute la validation d'unicité aux champs du schéma
+    "mongoose-unique-validator": "^3.1.0",
+    // 'multer' est un middleware pour la gestion des fichiers entrants dans les requêtes HTTP multipart/form-data
+    "multer": "^1.4.2"
